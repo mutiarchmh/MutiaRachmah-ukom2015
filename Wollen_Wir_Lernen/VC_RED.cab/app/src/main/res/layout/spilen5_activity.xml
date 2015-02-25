@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textSize="20dp"
+        android:id="@+id/btnCover"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:background="@drawable/quiz"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/btnCover" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spilen"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButton"
+        android:layout_toEndOf="@+id/imageButton" />
+
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="120dp"
+        android:background="#FFCC99"
+        android:id="@+id/button8"
+        android:layout_below="@+id/btnCover"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/btnPlay"
+        android:background="@drawable/btnplay"
+        android:clickable="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="43dp"
+        android:onClick="true"
+        android:layout_alignTop="@+id/button8"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8" />
+
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:text="Das Hemd"
+        android:textSize="18dp"
+        android:id="@+id/button25"
+        android:background="#FFCC99"
+        android:layout_marginTop="40dp"
+        android:clickable="true"
+        android:onClick="true"
+        android:layout_below="@+id/button8"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8"
+        android:layout_alignRight="@+id/button8"
+        android:layout_alignEnd="@+id/button8" />
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:text="Die Schuhe"
+        android:textSize="18dp"
+        android:id="@+id/button26"
+        android:layout_marginTop="15dp"
+        android:background="#FFCC99"
+        android:clickable="true"
+        android:onClick="true"
+        android:layout_below="@+id/button25"
+        android:layout_alignLeft="@+id/button25"
+        android:layout_alignStart="@+id/button25"
+        android:layout_alignRight="@+id/button25"
+        android:layout_alignEnd="@+id/button25" />
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:text="Das Kleid"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        android:id="@+id/button27"
+        android:background="#FFCC99"
+        android:clickable="true"
+        android:onClick="true"
+        android:layout_below="@+id/button26"
+        android:layout_alignLeft="@+id/button26"
+        android:layout_alignStart="@+id/button26"
+        android:layout_alignRight="@+id/button26"
+        android:layout_alignEnd="@+id/button26" />
+
+
+</RelativeLayout>
+

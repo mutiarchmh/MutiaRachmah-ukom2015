@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <Button
+        android:layout_width="600dp"
+        android:layout_height="65dp"
+        android:id="@+id/btnAnf"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_below="@+id/imgIcon"
+        android:layout_alignLeft="@+id/imgIcon"
+        android:layout_alignStart="@+id/imgIcon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anfänger"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="96dp"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButton"
+        android:layout_toEndOf="@+id/imageButton" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/books" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:layout_width="165dp"
+                android:layout_height="100dp"
+                android:src="@drawable/abc"
+                android:id="@+id/btnDas"
+                android:clickable="true"
+                android:onClick="true"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Alphabet"
+                android:id="@+id/txtDas"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                style="@android:style/TextAppearance.Large"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Abjad"
+                android:id="@+id/txtabj"
+                android:textSize="21dp"
+                android:gravity="center"
+                style="@android:style/TextAppearance.Large"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="100dp"
+                android:src="@drawable/a123"
+                android:clickable="true"
+                android:onClick="true"
+                android:id="@+id/btnZah"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Zahlen"
+                android:id="@+id/txtZah"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                style="@android:style/TextAppearance.Large"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Angka"
+                android:id="@+id/txthrf"
+                android:textSize="21dp"
+                android:gravity="center"
+                style="@android:style/TextAppearance.Large"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+  </RelativeLayout>

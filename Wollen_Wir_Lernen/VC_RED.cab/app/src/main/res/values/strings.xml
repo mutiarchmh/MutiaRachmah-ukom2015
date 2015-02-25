@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wollen Wir Lernen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lernen">Lernen</string>
+    <string name="title_activity_das__alphabeth">Das Alphabeth</string>
+    <string name="title_activity_zahlen">Zahlen</string>
+    <string name="title_activity_anfanger">Anfanger</string>
+    <string name="title_activity_gru_b">GruB</string>
+    <string name="title_activity_familie">Familie</string>
+    <string name="title_activity_kleidung">Kleidung</string>
+    <string name="title_activity_menu_kembali">MenuKembali</string>
+    <string name="title_activity_kembali">Kembali</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_spilen">Spilen</string>
+    <string name="title_activity_das_essen">DasEssen</string>
+    <string name="title_activity_ferbe">Ferbe</string>
+    <string name="title_activity_jahreszeit">Jahreszeit</string>
+    <string name="title_activity_das_essen_ii">dasEssenII</string>
+    <string name="title_activity_zahlen123">Zahlen123</string>
+    <string name="title_activity_salam">Salam</string>
+    <string name="title_activity_spilen_ii">SpilenII</string>
+    <string name="title_activity_spilen_iii">SpilenIII</string>
+    <string name="title_activity_salah">Salah</string>
+    <string name="title_activity_spilen4">Spilen4</string>
+    <string name="title_activity_finish">Finish</string>
+    <string name="title_activity_jahreszeit2">Jahreszeit2</string>
+    <string name="title_activity_jahreszeit3">Jahreszeit3</string>
+    <string name="title_activity_salam2">Salam2</string>
+    <string name="title_activity_salam_ii">SalamII</string>
+    <string name="title_activity_spilen5">Spilen5</string>
+
+</resources>

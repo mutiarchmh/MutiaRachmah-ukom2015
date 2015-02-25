@@ -1,0 +1,247 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="1dp">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="85dp"
+                    android:src="@drawable/jabat"
+                    android:clickable="true"
+                    android:onClick="true"
+                    android:id="@+id/imgGrub"
+                    android:layout_marginBottom="5dp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Grub"
+                    android:id="@+id/txtGrub"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    style="@android:style/TextAppearance.Large"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Salam"
+                    android:id="@+id/txtslm"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    style="@android:style/TextAppearance.Large"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="155dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/famili"
+                    android:id="@+id/imgFam"
+                    android:clickable="true"
+                    android:onClick="true"
+                    android:layout_marginBottom="0dp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Familie"
+                    android:id="@+id/txtFam"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    style="@android:style/TextAppearance.Large"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Keluarga"
+                    android:id="@+id/txtkl"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    style="@android:style/TextAppearance.Large"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="25dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/kleidung"
+                    android:id="@+id/imgKle"
+                    android:clickable="true"
+                    android:onClick="true"
+                    android:layout_marginBottom="0dp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kleidung"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    style="@android:style/TextAppearance.Large"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pakaian"
+                    android:id="@+id/txtpk"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    style="@android:style/TextAppearance.Large"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/berger"
+                    android:id="@+id/imgDas"
+                    android:layout_marginBottom="0dp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Das Essen"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    style="@android:style/TextAppearance.Large"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Makanan"
+                    android:id="@+id/txtmkn"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    style="@android:style/TextAppearance.Large"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="115dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/palette"
+                    android:id="@+id/imgFer"
+                    android:layout_marginBottom="4dp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ferbe"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    style="@android:style/TextAppearance.Large"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Warna"
+                    android:id="@+id/txtwrn"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    style="@android:style/TextAppearance.Large"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+
+
+                <ImageView
+                    android:layout_width="136dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/salju"
+                    android:id="@+id/imgJah"
+                    android:layout_marginBottom="0dp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jahreszeit"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    style="@android:style/TextAppearance.Large"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bulan"
+                    android:id="@+id/txtbln"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    style="@android:style/TextAppearance.Large"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <ImageView
+        android:layout_width="255dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView17"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ee"
+        android:layout_below="@+id/textView22"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verloren"
+        android:id="@+id/textView21"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salah"
+        android:textSize="20dp"
+        android:id="@+id/textView22"
+        android:layout_below="@+id/textView21"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wiederholen / Kembali"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btnWie"
+        android:layout_below="@+id/imageView17"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

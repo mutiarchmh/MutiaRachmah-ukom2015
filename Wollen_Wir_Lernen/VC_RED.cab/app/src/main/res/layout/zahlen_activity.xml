@@ -1,0 +1,245 @@
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="Zahlen"
+        android:textSize="24dp"
+        android:id="@+id/grub"
+        android:background="@android:color/holo_orange_dark"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/imgEnol"
+        android:background="@drawable/enol"
+        android:clickable="true"
+        android:onClick="true"
+        android:layout_alignTop="@+id/imgEins"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="110dp"
+        android:id="@+id/imgEins"
+        android:clickable="true"
+        android:onClick="true"
+        android:background="@drawable/eins"
+        android:layout_alignLeft="@+id/imgFunf"
+        android:layout_alignStart="@+id/imgFunf" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="6dp"
+        android:id="@+id/imgZwei"
+        android:clickable="true"
+        android:onClick="true"
+        android:layout_alignTop="@+id/imgEins"
+        android:layout_toRightOf="@+id/imgEins"
+        android:layout_toEndOf="@+id/imgEins"
+        android:background="@drawable/zwei" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="6dp"
+        android:id="@+id/imgDrei"
+        android:clickable="true"
+        android:onClick="true"
+        android:background="@drawable/drei"
+        android:layout_alignTop="@+id/imgZwei"
+        android:layout_toRightOf="@+id/imgZwei"
+        android:layout_toEndOf="@+id/imgZwei" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:id="@+id/imgVier"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/vier"
+        android:layout_below="@+id/imgEnol"
+        android:layout_toLeftOf="@+id/imgNeun"
+        android:layout_toStartOf="@+id/imgNeun" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="42dp"
+        android:id="@+id/imgFunf"
+        android:clickable="true"
+        android:onClick="true"
+        android:background="@drawable/funf"
+        android:layout_above="@+id/imgAcht"
+        android:layout_toRightOf="@+id/imgVier"
+        android:layout_toEndOf="@+id/imgVier" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:id="@+id/imgSechs"
+        android:clickable="true"
+        android:onClick="true"
+        android:background="@drawable/sechs"
+        android:layout_alignTop="@+id/imgFunf"
+        android:layout_toLeftOf="@+id/imgDrei"
+        android:layout_toStartOf="@+id/imgDrei" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:id="@+id/imgSieben"
+        android:clickable="true"
+        android:onClick="true"
+        android:background="@drawable/sieben"
+        android:layout_alignTop="@+id/imgSechs"
+        android:layout_alignLeft="@+id/imgElf"
+        android:layout_alignStart="@+id/imgElf" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:id="@+id/imgAcht"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/acht"
+        android:clickable="true"
+        android:onClick="true"
+        android:layout_below="@+id/imgVier"
+        android:layout_alignLeft="@+id/imgEnol"
+        android:layout_alignStart="@+id/imgEnol" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="0dp"
+        android:id="@+id/imgNeun"
+        android:clickable="true"
+        android:onClick="true"
+        android:background="@drawable/neun"
+        android:layout_alignTop="@+id/imgAcht"
+        android:layout_toRightOf="@+id/imgAcht"
+        android:layout_toEndOf="@+id/imgAcht" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:id="@+id/imgZahn"
+        android:background="@drawable/zahn"
+        android:layout_above="@+id/imgZwolf"
+        android:clickable="true"
+        android:onClick="true"
+        android:layout_toLeftOf="@+id/imgDrei"
+        android:layout_toStartOf="@+id/imgDrei" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:id="@+id/imgElf"
+        android:background="@drawable/elf"
+        android:clickable="true"
+        android:onClick="true"
+        android:layout_alignTop="@+id/imgZahn"
+        android:layout_alignLeft="@+id/imgDrei"
+        android:layout_alignStart="@+id/imgDrei" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:id="@+id/imgZwolf"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/zwolf"
+        android:layout_below="@+id/imgAcht"
+        android:clickable="true"
+        android:onClick="true"
+        android:layout_alignLeft="@+id/imgAcht"
+        android:layout_alignStart="@+id/imgAcht" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:id="@+id/imgDZ"
+        android:background="@drawable/dreizehn"
+        android:layout_above="@+id/imgSB"
+        android:clickable="true"
+        android:onClick="true"
+        android:layout_alignLeft="@+id/imgSB"
+        android:layout_alignStart="@+id/imgSB" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:id="@+id/imgVZ"
+        android:background="@drawable/vierzehn"
+        android:layout_alignTop="@+id/imgDZ"
+        android:clickable="true"
+        android:onClick="true"
+        android:layout_alignLeft="@+id/imgZahn"
+        android:layout_alignStart="@+id/imgZahn" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:id="@+id/imgFZ"
+        android:background="@drawable/funfzehn"
+        android:layout_alignTop="@+id/imgZwolf"
+        android:layout_alignLeft="@+id/imgElf"
+        android:clickable="true"
+        android:onClick="true"
+        android:layout_alignStart="@+id/imgElf" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:id="@+id/imgSZ"
+        android:layout_marginTop="0dp"
+        android:clickable="true"
+        android:onClick="true"
+        android:background="@drawable/sechzehn"
+        android:layout_alignTop="@+id/imgSB"
+        android:layout_toLeftOf="@+id/imgNeun"
+        android:layout_toStartOf="@+id/imgNeun" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:id="@+id/imgSB"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:onClick="true"
+        android:background="@drawable/siebzehn"
+        android:layout_below="@+id/imgZwolf"
+        android:layout_alignLeft="@+id/imgNeun"
+        android:layout_alignStart="@+id/imgNeun" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:id="@+id/imgAZ"
+        android:clickable="true"
+        android:onClick="true"
+        android:background="@drawable/achtzehn"
+        android:layout_alignTop="@+id/imgneunz"
+        android:layout_toLeftOf="@+id/imgDrei"
+        android:layout_toStartOf="@+id/imgDrei" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:id="@+id/imgneunz"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:onClick="true"
+        android:background="@drawable/neunzehn"
+        android:layout_below="@+id/imgFZ"
+        android:layout_alignLeft="@+id/imgFZ"
+        android:layout_alignStart="@+id/imgFZ" />
+
+</RelativeLayout>

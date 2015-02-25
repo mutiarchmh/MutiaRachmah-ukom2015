@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textSize="20dp"
+        android:id="@+id/btnCover"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Das Kleid"
+        android:id="@+id/textView4a"
+        android:textSize="42dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnCover"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:text="Kemeja"
+        android:textSize="18dp"
+        android:id="@+id/btnK"
+        android:clickable="true"
+        android:onClick="true"
+        android:background="#FFCC99"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/textView4a"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:text="Gaun"
+        android:textSize="18dp"
+        android:id="@+id/btnG"
+        android:clickable="true"
+        android:onClick="true"
+        android:background="#FFCC99"
+        android:layout_below="@+id/btnK"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:text="Sepatu"
+        android:textSize="18dp"
+        android:clickable="true"
+        android:onClick="true"
+        android:id="@+id/btnS"
+        android:background="#FFCC99"
+        android:layout_below="@+id/btnG"
+        android:layout_alignLeft="@+id/btnG"
+        android:layout_alignStart="@+id/btnG"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:text="Bluss"
+        android:textSize="18dp"
+        android:id="@+id/btnB"
+        android:background="#FFCC99"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        android:onClick="true"
+        android:layout_below="@+id/btnS"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:background="@drawable/quiz"
+        android:layout_above="@+id/textView4a"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spilen"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButton"
+        android:layout_toEndOf="@+id/imageButton" />
+
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="265dp"
+        android:layout_height="245dp"
+        android:id="@+id/imgIcon"
+        android:background="@drawable/lets_study"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+    <Button
+        android:layout_width="275dp"
+        android:layout_height="45dp"
+        android:textSize="18dp"
+        android:id="@+id/btnAnfanger"
+        android:background="#FFCC99"
+        android:layout_below="@+id/imgIcon"
+        android:layout_alignLeft="@+id/imgIcon"
+        android:layout_alignStart="@+id/imgIcon"
+        android:clickable="true"
+        android:onClick="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignRight="@+id/imgIcon"
+        android:layout_alignEnd="@+id/imgIcon" />
+
+    <Button
+        android:layout_width="275dp"
+        android:layout_height="45dp"
+        android:textSize="18dp"
+        android:id="@+id/btnLr"
+        android:background="#FFCC99"
+        android:layout_below="@+id/btnAnfanger"
+        android:layout_alignLeft="@+id/btnAnfanger"
+        android:layout_alignStart="@+id/btnAnfanger"
+        android:clickable="true"
+        android:onClick="true"
+        android:layout_marginTop="8dp"
+        android:layout_alignRight="@+id/btnAnfanger"
+        android:layout_alignEnd="@+id/btnAnfanger" />
+
+    <Button
+        android:layout_width="275dp"
+        android:layout_height="45dp"
+        android:textSize="18dp"
+        android:id="@+id/btnSpilen"
+        android:background="#FFCC99"
+        android:layout_below="@+id/btnLr"
+        android:layout_alignLeft="@+id/btnLr"
+        android:layout_alignStart="@+id/btnLr"
+        android:clickable="true"
+        android:onClick="true"
+        android:layout_marginTop="9dp"
+        android:layout_alignRight="@+id/btnLr"
+        android:layout_alignEnd="@+id/btnLr" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Anfanger / Pemula"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView8"
+        android:layout_alignTop="@+id/btnAnfanger"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Lernen / Belajar"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView10"
+        android:layout_alignTop="@+id/btnLr"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Spilen / Kuis"
+        android:id="@+id/textView12"
+        android:layout_alignTop="@+id/btnSpilen"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
+

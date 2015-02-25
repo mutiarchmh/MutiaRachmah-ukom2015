@@ -1,0 +1,273 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="Das Essen"
+        android:textSize="24dp"
+        android:id="@+id/ds"
+        android:background="#FFCC99"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:textSize="24dp"
+        android:background="#FFCC99"
+        android:layout_marginTop="94dp"
+        android:layout_marginLeft="105dp"
+        android:id="@+id/btn1"
+        android:layout_alignLeft="@+id/ds"
+        android:layout_alignStart="@+id/grub" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:textSize="24dp"
+        android:background="#FFCC99"
+        android:layout_marginTop="170dp"
+        android:id="@+id/btn2"
+        android:layout_alignLeft="@+id/btn1"
+        android:layout_alignStart="@+id/btn1" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:textSize="24dp"
+        android:background="#FFCC99"
+        android:layout_marginTop="250dp"
+        android:id="@+id/btn3"
+        android:layout_alignLeft="@+id/btn2"
+        android:layout_alignStart="@+id/btn2" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:textSize="24dp"
+        android:background="#FFCC99"
+        android:layout_marginTop="329dp"
+        android:id="@+id/btn4"
+        android:layout_alignLeft="@+id/btn3"
+        android:layout_alignStart="@+id/btn3" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:textSize="24dp"
+        android:background="#FFCC99"
+        android:layout_marginTop="404dp"
+        android:id="@+id/btn5"
+        android:layout_alignLeft="@+id/btn4"
+        android:layout_alignStart="@+id/btn4" />
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/imageView1"
+        android:background="@drawable/reis"
+        android:layout_alignTop="@+id/btn1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/fish"
+        android:id="@+id/imageView2"
+        android:layout_alignTop="@+id/btn2"/>
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/kentang"
+        android:id="@+id/imageView3"
+        android:layout_alignTop="@+id/btn3" />
+
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/chese"
+        android:id="@+id/imageView4"
+        android:layout_alignTop="@+id/btn4"/>
+
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/brot"
+        android:id="@+id/imageView5"
+        android:layout_alignTop="@+id/btn5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="der Reis"
+        android:id="@+id/textView1"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/btn1"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_toEndOf="@+id/imageView1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nasi"
+        android:id="@+id/textView1a"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignStart="@+id/textView1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="der Fisch"
+        android:id="@+id/textView2"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/btn2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ikan"
+        android:id="@+id/textView2a"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="die Kartoffel"
+        android:id="@+id/textView3"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_alignTop="@+id/btn3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kentang"
+        android:id="@+id/textView3a"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="die Case"
+        android:id="@+id/textView4"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/btn4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keju"
+        android:id="@+id/textView4a"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="das Brot"
+        android:id="@+id/textView5"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/btn5"
+        android:layout_toRightOf="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roti"
+        android:id="@+id/textView5a"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnPreis"
+        android:background="@drawable/btnplay"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_alignRight="@+id/btn1"
+        android:layout_alignEnd="@+id/btn1" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnPfish"
+        android:background="@drawable/btnplay"
+        android:layout_alignBottom="@+id/textView2a"
+        android:layout_alignLeft="@+id/btnPreis"
+        android:layout_alignStart="@+id/btnPreis" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnPkar"
+        android:background="@drawable/btnplay"
+        android:layout_alignBottom="@+id/textView3a"
+        android:layout_alignLeft="@+id/btnPfish"
+        android:layout_alignStart="@+id/btnPfish" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgPcase"
+        android:background="@drawable/btnplay"
+        android:layout_alignBottom="@+id/textView4a"
+        android:layout_alignLeft="@+id/btnPkar"
+        android:layout_alignStart="@+id/btnPkar"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgPbrot"
+        android:background="@drawable/btnplay"
+        android:layout_alignBottom="@+id/textView5a"
+        android:layout_alignLeft="@+id/imgPcase"
+        android:layout_alignStart="@+id/imgPcase"/>
+
+</RelativeLayout>

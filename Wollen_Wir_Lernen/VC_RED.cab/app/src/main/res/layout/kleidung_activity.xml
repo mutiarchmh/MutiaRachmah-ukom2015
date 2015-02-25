@@ -1,0 +1,296 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:textSize="24dp"
+        android:text="Kleidung"
+        android:background="#FFCC99"
+        android:id="@+id/button14" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/imageView12"
+        android:background="@drawable/kemeja"
+        android:layout_marginTop="93dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="4dp"
+        android:id="@+id/imageView13"
+        android:background="@drawable/rok"
+        android:layout_below="@+id/imageView12"
+        android:layout_alignLeft="@+id/imageView12"
+        android:layout_alignStart="@+id/imageView12" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageView14"
+        android:background="@drawable/sweater"
+        android:layout_below="@+id/imageView13"
+        android:layout_alignLeft="@+id/imageView13"
+        android:layout_alignStart="@+id/imageView13" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageView15"
+        android:background="@drawable/sepatu"
+        android:layout_below="@+id/imageView14"
+        android:layout_alignLeft="@+id/imageView14"
+        android:layout_alignStart="@+id/imageView14" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageView16"
+        android:background="@drawable/dress"
+        android:layout_below="@+id/imageView15"
+        android:layout_alignLeft="@+id/imageView15"
+        android:layout_alignStart="@+id/imageView15" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9"
+        android:background="#FFCC99"
+        android:layout_alignTop="@+id/imageView12"
+        android:layout_alignBottom="@+id/imageView12"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/imageView12"
+        android:layout_toRightOf="@+id/imageView12" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:background="#FFCC99"
+        android:layout_marginTop="12dp"
+        android:layout_alignTop="@+id/imageView13"
+        android:layout_above="@+id/imageView14"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button11"
+        android:layout_above="@+id/imageView15"
+        android:layout_below="@+id/imageView13"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:background="#FFCC99"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignStart="@+id/button10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button12"
+        android:background="#FFCC99"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/imageView14"
+        android:layout_above="@+id/imageView16"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button13"
+        android:layout_alignTop="@+id/imageView16"
+        android:layout_alignBottom="@+id/imageView16"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFCC99"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/button12"
+        android:layout_alignStart="@+id/button12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="das Hemd"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView9"
+        android:layout_alignTop="@+id/button9"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kemeja"
+        android:id="@+id/textView11"
+        android:textSize="18dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="26dp"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="der Rock"
+        android:id="@+id/textView13"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignTop="@+id/button10"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignStart="@+id/button10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rok"
+        android:id="@+id/textView14"
+        android:textSize="18dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="36dp"
+        android:layout_alignTop="@+id/button10"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignStart="@+id/button10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="der Pullover"
+        android:id="@+id/textView15"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button10"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sweater"
+        android:id="@+id/textView16"
+        android:textSize="18dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignTop="@+id/textView15"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="die Schuhe"
+        android:id="@+id/textView17"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignTop="@+id/button12"
+        android:layout_alignLeft="@+id/button12"
+        android:layout_alignStart="@+id/button12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sepatu"
+        android:id="@+id/textView18"
+        android:textSize="18dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="34dp"
+        android:layout_alignTop="@+id/button12"
+        android:layout_alignLeft="@+id/button12"
+        android:layout_alignStart="@+id/button12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="das Kleid"
+        android:id="@+id/textView19"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/button12"
+        android:layout_alignLeft="@+id/button13"
+        android:layout_alignStart="@+id/button13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaun"
+        android:textSize="18dp"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/textView19"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/imgPhemd"
+        android:background="@drawable/btnplay"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_toRightOf="@+id/textView15"
+        android:layout_toEndOf="@+id/textView15"
+        android:layout_marginLeft="51dp"
+        android:layout_marginStart="51dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/imgProck"
+        android:background="@drawable/btnplay"
+        android:layout_alignTop="@+id/textView13"
+        android:layout_alignLeft="@+id/imgPhemd"
+        android:layout_alignStart="@+id/imgPhemd" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/imgPpull"
+        android:background="@drawable/btnplay"
+        android:layout_alignTop="@+id/textView15"
+        android:layout_alignLeft="@+id/imgProck"
+        android:layout_alignStart="@+id/imgProck" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/imgPschuhe"
+        android:background="@drawable/btnplay"
+        android:layout_alignTop="@+id/textView17"
+        android:layout_alignLeft="@+id/imgPpull"
+        android:layout_alignStart="@+id/imgPpull" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/imgPkleid"
+        android:background="@drawable/btnplay"
+        android:layout_alignBottom="@+id/textView20"
+        android:layout_alignLeft="@+id/imgPschuhe"
+        android:layout_alignStart="@+id/imgPschuhe" />
+
+</RelativeLayout>
